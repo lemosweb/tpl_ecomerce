@@ -1,31 +1,31 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Routes File
-|--------------------------------------------------------------------------
-|
-| Here is where you will register all of the routes in an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the controller to call when that URI is requested.
-|
-*/
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| This route group applies the "web" middleware group to every route
-| it contains. The "web" middleware group is defined in your HTTP
-| kernel and includes session state, CSRF protection, and more.
-|
-*/
+
+
 
 Route::group(['middleware' => ['web']], function () {
-    //
+    Route::group(['prefix' => 'categories'], function(){
+
+        Route::get('/',['as' => 'categories.index', 'uses' => 'CategoriesController@index']);
+        Route::get('create',['as' => 'categories.create', 'uses' => 'CategoriesController@create']);
+        Route::post('store',['as' => 'categories.store', 'uses' => 'CategoriesController@store']);
+        Route::get('destroy/{id}',['as' => 'categories.destroy', 'uses' => 'CategoriesController@destroy']);
+        Route::get('edit/{id}',['as' => 'categories.edit', 'uses' => 'CategoriesController@edit']);
+        Route::put('update/{id}',['as' => 'categories.update', 'uses' => 'CategoriesController@update']);
+
+    });
+
+    Route::group(['prefix' => 'products'], function(){
+
+        Route::get('admin',['as' => 'products.index', 'uses' => 'ProductsController@index']);
+
+    });
+
+
 });
+
