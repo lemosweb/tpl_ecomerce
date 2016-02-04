@@ -4,7 +4,7 @@ namespace CodeCommerce;
 
 use Illuminate\Database\Eloquent\Model;
 
-class ProductsModel extends Model
+class ProductModel extends Model
 {
-    protected $fillable = ['name', 'description', 'price'];
+    protected $fillable = ['category_id', 'name', 'description', 'price'];
 }

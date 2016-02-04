@@ -4,13 +4,7 @@ namespace CodeCommerce;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Category extends Model
+class CategoryModel extends Model
 {
-    protected $fillable = ['name','description'];
-
-    public function products()
-    {
-        return $this->hasMany('CodeCommerce\ProductsModel');
-    }
-
+    protected $fillable = ['name', 'description'];
 }
