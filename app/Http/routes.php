@@ -30,6 +30,9 @@ Route::group(['middleware' => ['web']], function () {
         Route::group(['prefix' => 'products'], function(){
 
             Route::get('/',['as' => 'products.index', 'uses' => 'AdminProductsController@index']);
+            Route::get('create',['as' => 'products.create', 'uses' => 'AdminProductsController@create']);
+            Route::post('store',['as' => 'products.store', 'uses' => 'AdminProductsController@store']);
+
 
         });
 
