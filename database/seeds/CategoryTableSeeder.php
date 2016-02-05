@@ -11,6 +11,6 @@ class CategoryTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('CodeCommerce\CategoryModel', 10)->create();
+        factory('CodeCommerce\Category', 10)->create();
     }
 }

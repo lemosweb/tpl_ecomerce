@@ -11,6 +11,6 @@ class ProductTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('CodeCommerce\ProductModel', 20)->create();
+        factory('CodeCommerce\Product', 20)->create();
     }
 }

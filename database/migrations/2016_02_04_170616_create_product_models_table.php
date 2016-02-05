@@ -12,7 +12,9 @@ class CreateProductModelsTable extends Migration
      */
     public function up()
     {
-        Schema::create('product_models', function (Blueprint $table) {
+        DB::statement('set foreign_key_checks = 0;');
+        Schema::create('products', function (Blueprint $table) {
+
             $table->increments('id');
             $table->integer('category_id')->unsigned();
             $table->foreign('category_id')->references('id')->on('category_models');
@@ -20,7 +22,9 @@ class CreateProductModelsTable extends Migration
             $table->string('description');
             $table->decimal('price');
             $table->timestamps();
+
         });
+        DB::statement('set foreign_key_checks = 1;');
     }
 
     /**

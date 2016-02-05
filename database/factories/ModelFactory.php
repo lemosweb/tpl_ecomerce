@@ -20,7 +20,7 @@ $factory->define(CodeCommerce\User::class, function (Faker\Generator $faker) {
     ];
 });
 
-$factory->define(CodeCommerce\ProductModel::class, function (Faker\Generator $faker) {
+$factory->define(CodeCommerce\Product::class, function (Faker\Generator $faker) {
     return [
         'category_id' => $faker->numberBetween(1,10),
         'name' => $faker->word,
@@ -30,7 +30,7 @@ $factory->define(CodeCommerce\ProductModel::class, function (Faker\Generator $fa
     ];
 });
 
-$factory->define(CodeCommerce\CategoryModel::class, function (Faker\Generator $faker) {
+$factory->define(CodeCommerce\Category::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->word,
         'description' => $faker->sentence(20),

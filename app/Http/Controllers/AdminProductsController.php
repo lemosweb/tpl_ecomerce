@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use CodeCommerce\Http\Requests;
 use CodeCommerce\Http\Controllers\Controller;
 
-class ProductsController extends Controller
+class AdminProductsController extends Controller
 {
     public function index()
     {

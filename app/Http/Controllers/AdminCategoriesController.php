@@ -3,16 +3,16 @@
 namespace CodeCommerce\Http\Controllers;
 
 use Illuminate\Http\Request;
-use CodeCommerce\CategoryModel;
+use CodeCommerce\Category;
 use CodeCommerce\Http\Requests;
 use CodeCommerce\Http\Controllers\Controller;
 
-class CategoriesController extends Controller
+class AdminCategoriesController extends Controller
 {
 
     private $categoryModel;
 
-    public function __construct(CategoryModel $category)
+    public function __construct(Category $category)
     {
         $this->categoryModel = $category;
     }
