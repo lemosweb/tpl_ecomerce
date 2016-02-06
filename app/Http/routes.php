@@ -32,6 +32,10 @@ Route::group(['middleware' => ['web']], function () {
             Route::get('/',['as' => 'products.index', 'uses' => 'AdminProductsController@index']);
             Route::get('create',['as' => 'products.create', 'uses' => 'AdminProductsController@create']);
             Route::post('store',['as' => 'products.store', 'uses' => 'AdminProductsController@store']);
+            Route::get('{id}/edit', ['as' => 'products.edit', 'uses' => 'AdminProductsController@edit']);
+            Route::put('{id}/update', ['as' => 'products.update', 'uses' => 'AdminProductsController@update']);
+            Route::get('{id}/destroy',['as' => 'products.destroy', 'uses' => 'AdminProductsController@destroy']);
+
 
 
         });

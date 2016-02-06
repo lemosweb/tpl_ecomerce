@@ -9,6 +9,7 @@
                     <th>ID</th>
                     <th>Produto</th>
                     <th>Descrição</th>
+                    <th>Categoria</th>
                     <th>Preço</th>
                     <th>Ações</th>
                 </tr>
@@ -19,9 +20,10 @@
                         <td>{{ $product->id }}</td>
                         <td>{{ $product->name }}</td>
                         <td>{{ $product->description }}</td>
+                        <td>{{ $product->category->name }}</td>
                         <td>{{ $product->price }}</td>
-                        <td><a href="#" class="btn btn-default">Editar</a>
-                            <a href="#" class="btn btn-danger">Excluir</a></td>
+                        <td><a href="{{ route('products.edit', ['id' => $product->id ]) }}" class="btn btn-default">Editar</a>
+                            <a href="{{ route('products.destroy', ['id' => $product->id ]) }}" class="btn btn-danger">Excluir</a></td>
 
                     </tr>
                 @endforeach

@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateProductModelsTable extends Migration
+class CreateCategoriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,19 +12,12 @@ class CreateProductModelsTable extends Migration
      */
     public function up()
     {
-        DB::statement('set foreign_key_checks = 0;');
-        Schema::create('products', function (Blueprint $table) {
-
+        Schema::create('categories', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('category_id')->unsigned();
-            $table->foreign('category_id')->references('id')->on('category_models');
             $table->string('name', 80);
             $table->string('description');
-            $table->decimal('price');
             $table->timestamps();
-
         });
-        DB::statement('set foreign_key_checks = 1;');
     }
 
     /**
@@ -34,6 +27,6 @@ class CreateProductModelsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('product_models');
+        Schema::drop('category_models');
     }
 }
