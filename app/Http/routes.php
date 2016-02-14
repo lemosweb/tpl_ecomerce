@@ -1,9 +1,7 @@
 <?php
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'StoreController@index');
 
 
 
@@ -36,9 +34,20 @@ Route::group(['middleware' => ['web']], function () {
             Route::put('{id}/update', ['as' => 'products.update', 'uses' => 'AdminProductsController@update']);
             Route::get('{id}/destroy',['as' => 'products.destroy', 'uses' => 'AdminProductsController@destroy']);
 
+            Route::group(['prefix' => 'images'], function(){
+
+                Route::get('{id}/product',['as'=>'products.images', 'uses' => 'AdminProductsController@images']);
+                Route::get('create/{id}/product',['as'=>'products.images.create', 'uses' => 'AdminProductsController@createImage']);
+                Route::post('store/{id}/product',['as'=>'products.images.store', 'uses' => 'AdminProductsController@storeImage']);
+                Route::get('destroy/{id}/product',['as'=>'products.images.destroy', 'uses' => 'AdminProductsController@destroyImage']);
+
+            });
+
 
 
         });
+
+
 
 
 

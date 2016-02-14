@@ -14,7 +14,7 @@
 
         <div class="form-group">
             {!! Form::label('category', 'Category: ') !!}
-            {!! Form::select('category_id', $categories, null, ['class' => 'form-control']) !!}
+            {!! Form::select('category_id', $categories->lists('name', 'id'), ['class' => 'form-control']) !!}
         </div>
 
             <div class="form-group">
@@ -35,7 +35,17 @@
         </div>
 
         <div class="form-group">
-            {!! Form::submit('Cadastrar Produto',['class' => 'btn btn-primary']) !!}
+            {!! Form::label('featured', 'Em destaque: ') !!}
+            {!! Form::checkbox('featured', true, false) !!}
+        </div>
+
+        <div class="form-group">
+            {!! Form::label('recommended', 'Recomendado: ') !!}
+            {!! Form::checkbox('recommended', true, false) !!}
+        </div>
+
+        <div class="form-group">
+            {!! Form::submit('Cadastrar Produto', ['class' => 'btn btn-primary']) !!}
         </div>
 
         {!! Form::close() !!}
