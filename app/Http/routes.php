@@ -3,6 +3,7 @@
 
 Route::get('/', 'StoreController@index');
 
+Route::get('category/{id}',['as' => 'store.category', 'uses' => 'StoreController@category']);
 
 
 
@@ -22,8 +23,6 @@ Route::group(['middleware' => ['web']], function () {
             Route::put('update/{id}',['as' => 'categories.update', 'uses' => 'AdminCategoriesController@update']);
 
         });
-
-
 
         Route::group(['prefix' => 'products'], function(){
 
@@ -46,6 +45,9 @@ Route::group(['middleware' => ['web']], function () {
 
 
         });
+
+
+
 
 
 

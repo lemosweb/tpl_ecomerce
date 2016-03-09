@@ -2,13 +2,12 @@
 
 @section('categories')
 
-    @include('store.categories_partial')
+    @include('store.partial.categories')
 
 @endsection
 
 @section('content')
 
-    @include('store.content')
 
 @endsection
 

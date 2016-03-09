@@ -7,7 +7,7 @@
     @foreach($categories as $categorie)
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h4 class="panel-title"><a href="#" alt="{{ $categorie->description }}">{{ $categorie->name }}</a></h4>
+                <h4 class="panel-title"><a href="{{ route('store.category',['id' => $categorie->id]) }}" alt="{{ $categorie->description }}">{{ $categorie->name }}</a></h4>
             </div>
         </div>
 
