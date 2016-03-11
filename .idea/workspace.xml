@@ -2,84 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3055672a-4198-4067-b3a5-5a2e1fa18343" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/store/category.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/store/partial/product.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/animate.css" afterPath="$PROJECT_DIR$/resources/assets/css/animate.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/resources/assets/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/resources/assets/css/font-awesome.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/resources/assets/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/prettyPhoto.css" afterPath="$PROJECT_DIR$/resources/assets/css/prettyPhoto.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/price-range.css" afterPath="$PROJECT_DIR$/resources/assets/css/price-range.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/responsive.css" afterPath="$PROJECT_DIR$/resources/assets/css/responsive.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/resources/assets/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/resources/assets/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/resources/assets/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/resources/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/resources/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/resources/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/resources/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/resources/assets/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/.jscsrc" afterPath="$PROJECT_DIR$/resources/assets/js/.jscsrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/.jshintrc" afterPath="$PROJECT_DIR$/resources/assets/js/.jshintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/affix.js" afterPath="$PROJECT_DIR$/resources/assets/js/affix.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/alert.js" afterPath="$PROJECT_DIR$/resources/assets/js/alert.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/resources/assets/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/button.js" afterPath="$PROJECT_DIR$/resources/assets/js/button.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/carousel.js" afterPath="$PROJECT_DIR$/resources/assets/js/carousel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/collapse.js" afterPath="$PROJECT_DIR$/resources/assets/js/collapse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/contact.js" afterPath="$PROJECT_DIR$/resources/assets/js/contact.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/dropdown.js" afterPath="$PROJECT_DIR$/resources/assets/js/dropdown.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/gmaps.js" afterPath="$PROJECT_DIR$/resources/assets/js/gmaps.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/html5shiv.js" afterPath="$PROJECT_DIR$/resources/assets/js/html5shiv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.js" afterPath="$PROJECT_DIR$/resources/assets/js/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.prettyPhoto.js" afterPath="$PROJECT_DIR$/resources/assets/js/jquery.prettyPhoto.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.scrollUp.min.js" afterPath="$PROJECT_DIR$/resources/assets/js/jquery.scrollUp.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/resources/assets/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/modal.js" afterPath="$PROJECT_DIR$/resources/assets/js/modal.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/popover.js" afterPath="$PROJECT_DIR$/resources/assets/js/popover.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/price-range.js" afterPath="$PROJECT_DIR$/resources/assets/js/price-range.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/scrollspy.js" afterPath="$PROJECT_DIR$/resources/assets/js/scrollspy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tab.js" afterPath="$PROJECT_DIR$/resources/assets/js/tab.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/README.md" afterPath="$PROJECT_DIR$/resources/assets/js/tests/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/index.html" afterPath="$PROJECT_DIR$/resources/assets/js/tests/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/unit/.jshintrc" afterPath="$PROJECT_DIR$/resources/assets/js/tests/unit/.jshintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/unit/affix.js" afterPath="$PROJECT_DIR$/resources/assets/js/tests/unit/affix.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/unit/alert.js" afterPath="$PROJECT_DIR$/resources/assets/js/tests/unit/alert.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/unit/button.js" afterPath="$PROJECT_DIR$/resources/assets/js/tests/unit/button.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/unit/carousel.js" afterPath="$PROJECT_DIR$/resources/assets/js/tests/unit/carousel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/unit/collapse.js" afterPath="$PROJECT_DIR$/resources/assets/js/tests/unit/collapse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/unit/dropdown.js" afterPath="$PROJECT_DIR$/resources/assets/js/tests/unit/dropdown.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/unit/modal.js" afterPath="$PROJECT_DIR$/resources/assets/js/tests/unit/modal.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/unit/phantom.js" afterPath="$PROJECT_DIR$/resources/assets/js/tests/unit/phantom.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/unit/popover.js" afterPath="$PROJECT_DIR$/resources/assets/js/tests/unit/popover.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/unit/scrollspy.js" afterPath="$PROJECT_DIR$/resources/assets/js/tests/unit/scrollspy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/unit/tab.js" afterPath="$PROJECT_DIR$/resources/assets/js/tests/unit/tab.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/unit/tooltip.js" afterPath="$PROJECT_DIR$/resources/assets/js/tests/unit/tooltip.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/vendor/jquery.min.js" afterPath="$PROJECT_DIR$/resources/assets/js/tests/vendor/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/vendor/qunit.css" afterPath="$PROJECT_DIR$/resources/assets/js/tests/vendor/qunit.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/vendor/qunit.js" afterPath="$PROJECT_DIR$/resources/assets/js/tests/vendor/qunit.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/visual/affix-with-sticky-footer.html" afterPath="$PROJECT_DIR$/resources/assets/js/tests/visual/affix-with-sticky-footer.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/visual/affix.html" afterPath="$PROJECT_DIR$/resources/assets/js/tests/visual/affix.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/visual/alert.html" afterPath="$PROJECT_DIR$/resources/assets/js/tests/visual/alert.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/visual/button.html" afterPath="$PROJECT_DIR$/resources/assets/js/tests/visual/button.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/visual/carousel.html" afterPath="$PROJECT_DIR$/resources/assets/js/tests/visual/carousel.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/visual/collapse.html" afterPath="$PROJECT_DIR$/resources/assets/js/tests/visual/collapse.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/visual/dropdown.html" afterPath="$PROJECT_DIR$/resources/assets/js/tests/visual/dropdown.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/visual/modal.html" afterPath="$PROJECT_DIR$/resources/assets/js/tests/visual/modal.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/visual/popover.html" afterPath="$PROJECT_DIR$/resources/assets/js/tests/visual/popover.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/visual/scrollspy.html" afterPath="$PROJECT_DIR$/resources/assets/js/tests/visual/scrollspy.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/visual/tab.html" afterPath="$PROJECT_DIR$/resources/assets/js/tests/visual/tab.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tests/visual/tooltip.html" afterPath="$PROJECT_DIR$/resources/assets/js/tests/visual/tooltip.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/tooltip.js" afterPath="$PROJECT_DIR$/resources/assets/js/tooltip.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/transition.js" afterPath="$PROJECT_DIR$/resources/assets/js/transition.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/store/categories_partial.blade.php" afterPath="$PROJECT_DIR$/resources/views/store/partial/categories.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Product.php" afterPath="$PROJECT_DIR$/app/Product.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/store/product.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/store/content.blade.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/StoreController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/StoreController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/store/content.blade.php" afterPath="$PROJECT_DIR$/resources/views/store/content.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/store/category.blade.php" afterPath="$PROJECT_DIR$/resources/views/store/category.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/store/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/store/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/store/store.blade.php" afterPath="$PROJECT_DIR$/resources/views/store/store.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodeCommerce.iws" />
@@ -102,11 +30,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="StoreController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StoreController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.333333">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.0">
+              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="product.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/store/partial/product.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.333334">
-              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+            <state vertical-scroll-proportion="-8.666667">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,18 +63,28 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/store/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.62963">
+              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="store.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/store/store.blade.php">
+      <file leaf-file-name="product.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/store/product.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.220339">
-              <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.420339">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categories.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/store/partial/categories.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.666667">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -198,14 +156,14 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/resources/views/store/partial/product.blade.php" />
         <option value="$PROJECT_DIR$/app/Product.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/StoreController.php" />
         <option value="$PROJECT_DIR$/resources/views/store/partial_product.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/store/content.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/store/category.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/store/categories_partial.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/store/product.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/store/content.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/store/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/store/category.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/StoreController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/store/product.blade.php" />
       </list>
     </option>
   </component>
@@ -452,6 +410,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/store" />
       <recent name="$PROJECT_DIR$/resources/assets" />
       <recent name="$PROJECT_DIR$/resources/views/products" />
       <recent name="$PROJECT_DIR$/resources/views/categories" />
@@ -507,7 +466,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="743" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25073314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -863,72 +822,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5185184">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/store/store.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/store/category.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.2983051">
+          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/store/partial/categories.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21355931">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5185184">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StoreController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6338983">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/store/content.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/store/partial/product.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.333334">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StoreController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.333333">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/store/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.62963">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/store/store.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.220339">
-          <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/store/product.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.420339">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding />
         </state>
       </provider>
