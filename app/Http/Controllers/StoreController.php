@@ -38,4 +38,22 @@ class StoreController extends Controller
 
         return view('store.product', compact('categories', 'product'));
     }
+
+    public function all()
+    {
+        return $this->items;
+    }
+
+    public function getTotal()
+    {
+        $total = 0;
+        foreach($this->items as $items){
+
+            $total += $items['qtd'] * $items['price'];
+        }
+
+        return $total;
+    }
+
+
 }

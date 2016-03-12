@@ -27,6 +27,16 @@
             </div>
 
             <div class="form-group">
+                {!! Form::label('featured', 'Em destaque: ') !!}
+                {!! Form::checkbox('featured') !!}
+            </div>
+
+            <div class="form-group">
+                {!! Form::label('recommended', 'Recomendado: ') !!}
+                {!! Form::checkbox('recommended') !!}
+            </div>
+
+            <div class="form-group">
                 {!! Form::label('price', 'Preço: ') !!}
                 {!! Form::text('price', null, ['class' => 'form-control']) !!}
             </div>

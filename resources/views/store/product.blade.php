@@ -12,20 +12,30 @@
             <div class="col-sm-5">
                 <div class="view-product">
 
-                    <img src="http://commerce.dev:10088/uploads/10.jpg" alt=""/>
-
+                    @if(count($product->images))
+                        <img src="{{ url('uploads/'.$product->images->first()->id.'.'.$product->images->first()->extension) }}" alt=""/>
+                    @else
+                        <img src="{{ url('images/no-img.jpg') }}" alt="" />
+                    @endif
 
                 </div>
                 <div id="similar-product" class="carousel slide" data-ride="carousel">
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
-                        <div class="item active">
-                            <a href="#"><img src="http://commerce.dev:10088/uploads/10.jpg" alt="" width="80"></a>
-                            <a href="#"><img src="http://commerce.dev:10088/uploads/11.jpg" alt="" width="80"></a>
-                            <a href="#"><img src="http://commerce.dev:10088/uploads/12.jpg" alt="" width="80"></a>
-                        </div>
+                        @if(count($product->images))
+                            @foreach($product->images as $image)
+                            <div class="item active">
+                                <a href="{{ url('uploads/'.$image->id.'.'.$image->extension) }}">
+                                    <img src="{{ url('uploads/'.$image->id.'.'.$image->extension) }}" alt="" width="80">
+                                </a>
 
+                            </div>
+                            @endforeach
+
+                        @else
+                            <img src="{{ url('images/no-img.jpg') }}" alt="" />
+                        @endif
                     </div>
 
                 </div>
@@ -34,12 +44,11 @@
             <div class="col-sm-7">
                 <div class="product-information"><!--/product-information-->
 
-                    <h2>ut :: magni</h2>
+                    <h2>{{ $product->category->name }}</h2>
 
-                    <p>Omnis accusamus est voluptatem et. Quod facilis quasi dolorem et voluptates delectus. Et adipisci
-                        quos quaerat dolor quo consequatur delectus. Ut ea consequuntur at.</p>
+                    <p>{{ $product->description }}</p>
                                 <span>
-                                    <span>R$ 9,00</span>
+                                    <span>R$ {{ number_format($product->price,2,",",".") }}</span>
                                         <a href="http://commerce.dev:10088/cart/2/add" class="btn btn-fefault cart">
                                             <i class="fa fa-shopping-cart"></i>
                                             Adicionar no Carrinho
