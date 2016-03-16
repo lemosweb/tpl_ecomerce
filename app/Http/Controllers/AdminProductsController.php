@@ -62,7 +62,14 @@ class AdminProductsController extends Controller
 
     public function update(ProductRequest $request, $id)
     {
-        $this->product->find($id)->update($request->all());
+
+        $product = $this->product->find($id);
+
+        $product['featured'] = $request->get('featured') ? true : false;
+        $product['recommended'] = $request->get('recommended') ? true : false;
+
+        $product->update($request->all());
+
 
         return redirect()->route('products.index');
     }

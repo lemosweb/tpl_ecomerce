@@ -50,6 +50,7 @@ class StoreController extends Controller
         foreach($this->items as $items){
 
             $total += $items['qtd'] * $items['price'];
+
         }
 
         return $total;

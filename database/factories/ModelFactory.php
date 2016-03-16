@@ -38,3 +38,12 @@ $factory->define(CodeCommerce\Category::class, function (Faker\Generator $faker)
 
     ];
 });
+
+$factory->define(CodeCommerce\User::class, function (Faker\Generator $faker) {
+    return [
+        'name' => $faker->name,
+        'email' => $faker->email,
+        'password' => bcrypt('123456')
+
+    ];
+});

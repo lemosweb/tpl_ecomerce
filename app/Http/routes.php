@@ -1,11 +1,9 @@
 <?php
 
 
-Route::get('/', 'StoreController@index');
 
-Route::get('category/{id}',['as' => 'store.category', 'uses' => 'StoreController@category']);
-Route::get('product/{id}',['as' => 'store.product', 'uses' => 'StoreController@product']);
-Route::get('cart',['as' => 'store.cart', 'uses' =>'CartController@index']);
+
+
 
 
 
@@ -42,20 +40,23 @@ Route::group(['middleware' => ['web']], function () {
                 Route::post('store/{id}/product',['as'=>'products.images.store', 'uses' => 'AdminProductsController@storeImage']);
                 Route::get('destroy/{id}/product',['as'=>'products.images.destroy', 'uses' => 'AdminProductsController@destroyImage']);
 
+
             });
-
-
-
         });
-
-
-    
-
-
-
-
-
     });
+
+    Route::get('/', 'StoreController@index');
+
+    Route::get('category/{id}',['as' => 'store.category', 'uses' => 'StoreController@category']);
+    Route::get('product/{id}',['as' => 'store.product', 'uses' => 'StoreController@product']);
+
+
+    Route::get('cart',['as' => 'store.cart', 'uses' =>'CartController@index']);
+    Route::get('cart/add/{id}', ['as' => 'cart.add', 'uses' => 'CartController@add']);
+    Route::get('cart/destroy/{id}', ['as' => 'cart.destroy', 'uses' => 'CartController@destroy']);
+
+    Route::get('checkout/placeOrder', ['as' => 'checkout.place', 'uses' => 'CheckOutController@place']);
+
 
 
 });
