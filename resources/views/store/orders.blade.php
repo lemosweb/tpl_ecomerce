@@ -1,25 +1,39 @@
 @extends('store.store')
 
-@section('categories')
 
-    @include('store.partial.categories')
-
-@endsection
 
 @section('content')
     <div class="col-sm-9 padding-right">
 
-        @if($cart == 'empty')
 
-            <h3>Carrinho de Compras Vazio</h3>
 
-        @else
+            <h3>Meus Pedidos</h3>
 
-            <h3>Pedido Realizado com Sucesso!</h3>
+        <table class="table">
+            <tbody>
+            <tr>
+                <th>#ID</th>
+                <th>Itens</th>
+                <th>Valor</th>
+                <th>Status</th>
+            </tr>
 
-            <p>O Pedido #{{ $order->id }}, foi realizado com sucesso.</p>
-
-        @endif
+            @foreach($orders as $order)
+                <tr>
+                    <td>{{ $order->id }}</td>
+                    <td>
+                        <ul>
+                        @foreach($order->items as $item)
+                            <li>{{ $item->product->name }}</li>
+                        @endforeach
+                        </ul>
+                    </td>
+                    <td>{{ $order->total }}</td>
+                    <td>{{ $order->status }}</td>
+                </tr>
+            @endforeach
+            </tbody>
+        </table>
 
 
     </div>

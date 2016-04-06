@@ -5,6 +5,7 @@ namespace CodeCommerce\Listeners;
 use CodeCommerce\Events\CheckoutEvent;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Support\Facades\Mail;
 
 class SendEmailCheckout
 {
@@ -26,6 +27,10 @@ class SendEmailCheckout
      */
     public function handle(CheckoutEvent $event)
     {
-        //
+        Mail::send('email.test', ['name' => 'Daniel'], function($message)
+        {
+            $message->to('doniexlemavorum@gmail.com', 'Some Guy')->from('atendimento@lemosweb.com.br')->subject('Welcome!');
+        });
+        echo 'Email Enviado!!';
     }
 }

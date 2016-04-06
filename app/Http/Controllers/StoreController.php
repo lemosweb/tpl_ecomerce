@@ -2,6 +2,7 @@
 
 namespace CodeCommerce\Http\Controllers;
 
+use Illuminate\Contracts\Mail\MailQueue;
 use Illuminate\Http\Request;
 
 use CodeCommerce\Http\Requests;
@@ -11,6 +12,14 @@ use CodeCommerce\Product;
 
 class StoreController extends Controller
 {
+
+    protected $mailer;
+
+    function __construct(MailQueue $mailer)
+    {
+        $this->mailer = $mailer;
+    }
+
     public function index()
     {
         $pFeatured = Product::featured()->get();
