@@ -12,7 +12,7 @@ class CreateOrderItem extends Migration
      */
     public function up()
     {
-        //DB::statement('set foreign_key_checks = 0;');
+        DB::statement('set foreign_key_checks = 0;');
         Schema::create('order_items', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('product_id')->unsigned();
@@ -23,7 +23,7 @@ class CreateOrderItem extends Migration
             $table->smallInteger('qtd');
             $table->timestamps();
         });
-        //DB::statement('set foreign_key_checks = 1;');
+        DB::statement('set foreign_key_checks = 1;');
     }
 
     /**

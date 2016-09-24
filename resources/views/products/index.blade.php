@@ -22,7 +22,7 @@
                         <td>{{ $product->description }}</td>
                         <td>{{ $product->category->name }}</td>
                         <td>{{ $product->price }}</td>
-                        <td><td><a href="{{ route('products.images', ['id' => $product->id]) }}" class="btn btn-default">Imagens</a>
+                        <td><a href="{{ route('products.images', ['id' => $product->id]) }}" class="btn btn-default">Imagens</a>
                             <a href="{{ route('products.edit', ['id' => $product->id ]) }}" class="btn btn-default">Editar</a>
                             <a href="{{ route('products.destroy', ['id' => $product->id ]) }}" class="btn btn-danger">Excluir</a></td>
 

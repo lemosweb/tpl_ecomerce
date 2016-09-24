@@ -77,7 +77,6 @@ Route::group(['prefix' => 'admin', 'middleware' => ['web', 'auth']], function(){
             Route::post('store/{id}/product',['as'=>'products.images.store', 'uses' => 'AdminProductsController@storeImage']);
             Route::get('destroy/{id}/product',['as'=>'products.images.destroy', 'uses' => 'AdminProductsController@destroyImage']);
 
-
         });
     });
 });
